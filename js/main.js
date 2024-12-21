@@ -15,7 +15,7 @@ function loop() {
     diff = Date.now()-date;
     updateOptions()
     updateHTML()
-    calc(diff/1000)
+    calc(diff/200)
     date = Date.now()
 }
 
